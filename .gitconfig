@@ -1,0 +1,15 @@
+[user]
+        name = Gleb Fokin
+        email = 1fokingleb@gmail.com
+[alias]
+        lg = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        co = checkout
+        st = status -s
+        ll = log --numstat --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        ci = commit
+        cim = commit -m
+        aa = add .
+        r = reset
+        ss = stash save
+        sa = stash apply
+        sl = stash list
